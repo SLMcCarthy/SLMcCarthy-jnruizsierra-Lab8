@@ -3,16 +3,12 @@
  * @authors Shane McCarthy, Jomaly Ruiz Sierra, Christina Lutton
  */
 
-
-public class Addition extends Operator
+public class Plus extends Operator
 {
-	Number left;
-	Number right;
 
-	public int Addition()
+	public int Plus(Number num1, Number num2)
 	{
-		super(left, right);
-		return (left + " + " + right);
+		return (num1 + " + " + num2);
 	}
 
 }
