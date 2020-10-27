@@ -3,9 +3,7 @@
  * @authors Shane McCarthy, Jomaly Ruiz Sierra, Christina Lutton
  */
 
-public class Number
+public class Number extends ExpressionTree
 {
     int num;
-    Number left, right;
-
 }
